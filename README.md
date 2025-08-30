@@ -211,7 +211,7 @@ Check [mrcp_client](https://github.com/MayamaTakeshi/mrcp_client) for more tests
 
 ### unimrcp
 
-Now, the TTS and ASR service providers like google, amazon, azure etc, don't typically provide access to their services using MRCP and instead, they are accesed using non-standardized API calls via HTTP.
+The TTS and ASR service providers like google, amazon, azure etc, don't typically provide access to their services using MRCP and instead, they are accessed using non-standardized API calls via HTTP.
 
 So to talk with such services we use [unimrcp](https://github.com/unispeech/unimrcp) which is an open source library and client/server application project for the MRCP protocol.
 
