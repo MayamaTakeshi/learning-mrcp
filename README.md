@@ -6,7 +6,9 @@ This is a tutorial on the MRCP protocol.
 
 We will only deal with MRCP version 2 which uses SIP as session establishment protocol.
 
-We will not reference RFCs or other documents and will focus in practical exercises so that we can see how things works by actually using MRCP apps and tools.
+This is specified in https://datatracker.ietf.org/doc/rfc6787/
+
+However, you don't need to read the above doc sa in this tutorial we will focus in practical exercises so that we can see how things works by actually using MRCP apps and tools.
 
 You should already be familiar with SIP, SDP and RTP.
 
