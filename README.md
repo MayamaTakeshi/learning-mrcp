@@ -147,7 +147,7 @@ sudo ./install_sngrep2.sh
 
 Then start like like this:
 ```
-sudo sngrep2
+sudo sngrep2 -d any
 ```
 and keep it running in a shell in your desktop PC.
 
