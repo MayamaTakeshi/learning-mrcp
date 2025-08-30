@@ -154,10 +154,7 @@ and keep it running in a shell in your desktop PC.
 
 ### Testing using mrcp_server and mrcp_client
 
-We have [mrcp_server](https://github.com/MayamaTakeshi/mrcp_server)
-
-and [mrcp_client](https://github.com/MayamaTakeshi/mrcp_client)
-
+We have [mrcp_server](https://github.com/MayamaTakeshi/mrcp_server) and [mrcp_client](https://github.com/MayamaTakeshi/mrcp_client)
 which are node.js apps that we can use to make MRCP tests and visualize their message flow.
 
 If you are interested in details you can follow their documentation. But for our tests this is enough:
