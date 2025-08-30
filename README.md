@@ -14,7 +14,7 @@ You should already be familiar with SIP, SDP and RTP.
 
 Basically, MRCP is a client/server protocol where a client can establish a session with a server and request media services like TextToSpeech (TTS) or SpeechToText (ASR) translation.
 
-The MRCP communication intiates using a SIP INVITE transaction which negotiates the audio stream (RTP) to be used to send or receive audio to/from the server and also obtains an MRCP channel-identifier to open a TCP connection to the server to exchange MRCP messages. 
+The MRCP communication is initiated using a SIP INVITE transaction which negotiates the audio stream (RTP) to be used to send or receive audio to/from the server and also obtains an MRCP channel-identifier to open a TCP connection to the server to exchange MRCP messages. 
 
 Here sample messages exchanges between a client and a server app:
 
@@ -145,7 +145,7 @@ To install it, run:
 sudo ./install_sngrep2.sh
 ```
 
-The start like like this:
+Then start like like this:
 ```
 sudo sngrep2
 ```
