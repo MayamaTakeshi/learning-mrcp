@@ -8,7 +8,7 @@ We will only deal with MRCP version 2 which uses SIP as session establishment pr
 
 This is specified in https://datatracker.ietf.org/doc/rfc6787/
 
-However, you don't need to read the above doc as in this tutorial we will focus in practical exercises so that we can see how things works by actually using MRCP apps and tools.
+However, you don't need to read the above doc as in this tutorial we will focus on practical exercises so that we can see how things works by actually using MRCP apps and tools.
 
 You should already be familiar with SIP, SDP and RTP.
 
@@ -147,7 +147,7 @@ To install it, run:
 sudo ./install_sngrep2.sh
 ```
 
-Then start like like this:
+Then start it like like this:
 ```
 sudo sngrep2 -d any
 ```
@@ -196,7 +196,7 @@ or
 node speechrecog_client.js 127.0.0.1 8070 ja-JP artifacts/ohayou_gozaimasu.wav builtin:speech/transcribe
 ```
 
-If you don't have GOOGLE_APPLICATION_CREDENTIALS you can use DTMF as language:
+If you don't have GOOGLE_APPLICATION_CREDENTIALS you can use DTMF as language/voice:
 ```
 node speechsynth_client.js 127.0.0.1 8070 dtmf dtmf 1234567890abcd*#
 ```
