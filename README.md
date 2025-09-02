@@ -18,7 +18,7 @@ Basically, MRCP is a client/server protocol where a client can establish a sessi
 
 The MRCP communication is initiated using a SIP INVITE transaction which negotiates the audio stream (RTP) to be used to send or receive audio to/from the server and also obtains an MRCP channel-identifier to open a TCP connection to the server to exchange MRCP messages. 
 
-Here sample messages exchanges between a client and a server app:
+Here are sample messages exchanged between a client and a server app:
 
 
 The client sends and INVITE like this to the server:
