@@ -134,7 +134,7 @@ Completion-Cause: 000 normal
 
 At this point, the client would disconnect the SIP call with a BYE request.
 
-### sngrep2
+## sngrep2
 
 [sngrep](https://github.com/irontec/sngrep) is a command-line tool that permits to visualize SIP messages flows.
 
@@ -154,7 +154,7 @@ sudo sngrep2 -d any
 and keep it running in a shell in your desktop PC.
 
 
-### Testing using mrcp_server and mrcp_client
+## Testing using mrcp_server and mrcp_client
 
 We have [mrcp_server](https://github.com/MayamaTakeshi/mrcp_server) and [mrcp_client](https://github.com/MayamaTakeshi/mrcp_client)
 which are node.js apps that we can use to make MRCP tests and visualize their message flow.
@@ -209,7 +209,7 @@ After making such test calls, check sngrep2 to see the SIP and MRCP messages exc
 
 Check [mrcp_client](https://github.com/MayamaTakeshi/mrcp_client) for more tests that can be done.
 
-### unimrcp
+## unimrcp
 
 The TTS and ASR service providers like google, amazon, azure etc, don't typically provide access to their services using MRCP and instead, they are accessed using non-standardized API calls via HTTP.
 
